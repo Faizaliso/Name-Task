@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Succes.png">
+    <title>namaSaya</title>
+</head>
+<body>
+    <script>
+        
+//HURUF F
+        for (let y = 1; y <= 9; y++){
+            for (let x = 1; x <=9; x++){
+        
+            if (x==1 || y==0 || x==0 || y==1 || x==0 || y==5){
+            document.write('*')
+            }
+            else {
+            document.write('_')
+            }
+      
+        }
+
+    document.write('<br>')
+    }
+
+    //HURUF A
+document.write('<br>')
+
+for (let y = 1; y <= 9; y++){
+    for (let x = 1; x <=9; x++){
+        
+        if (x==5 && y==1 || x==4 && y==2 || x==6 && y==2 || x==3 && y==3 ||
+             x==7 && y==3 || x==2 && y==4 || x==8 && y==4 || x==1 && y==5 || x==9 && y==5 ||
+             x==0 || y==5 || x==1 && x+y>=7 || x==9 && x+y>=14){
+            document.write('*')
+        }
+        else {
+            document.write('_')
+        }
+      
+    }
+
+    document.write('<br>')
+}
+    
+//HURUF I
+    document.write('<br>')
+        for (let y = 1; y <= 9; y++){
+            for (let x = 1; x <=9; x++){
+        
+            if (x==5 || y==0){
+            document.write('*')
+            }
+            else {
+            document.write('_')
+            }
+      
+        }
+
+    document.write('<br>')
+    }
+
+//HURUF Z
+document.write('<br>')
+
+for (let y = 1; y <= 9; y++){
+    for (let x = 1; x <=9; x++){
+        
+        if (y==1 || x+y==10 || y==9){
+            document.write('*')
+        }
+        else {
+            document.write('_')
+        }
+      
+    }
+
+    document.write('<br>')
+}
+
+//HURUF A
+document.write('<br>')
+
+for (let y = 1; y <= 9; y++){
+    for (let x = 1; x <=9; x++){
+        
+        if (x==5 && y==1 || x==4 && y==2 || x==6 && y==2 || x==3 && y==3 ||
+             x==7 && y==3 || x==2 && y==4 || x==8 && y==4 || x==1 && y==5 || x==9 && y==5 ||
+             x==0 || y==5 || x==1 && x+y>=7 || x==9 && x+y>=14){
+            document.write('*')
+        }
+        else {
+            document.write('_')
+        }
+      
+    }
+
+    document.write('<br>')
+}
+
+//HURUF L
+document.write('<br>')
+
+for (let y = 1; y <= 9; y++){
+    for (let x = 1; x <=9; x++){
+        
+        if (x==1 || y==9){
+            document.write('*')
+        }
+        else {
+            document.write('_')
+        }
+      
+    }
+
+    document.write('<br>')
+}
+    </script>
+</body>
+</html>
